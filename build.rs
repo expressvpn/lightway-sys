@@ -9,7 +9,7 @@ use std::env;
 use std::path::Path;
 use std::process::Command;
 
-static LIGHTWAY_VERSION: &str = "lightway-core-1.1";
+static LIGHTWAY_VERSION: &str = "lightway-core-1.6.2";
 
 /**
  * Extract Lightway Core
@@ -79,7 +79,7 @@ fn main() -> std::io::Result<()> {
 
     // Build the Rust binding
     let bindings = bindgen::Builder::default()
-        .header(format!("{}/lightway-core-1.1/public/he.h", outdir_string))
+        .header(format!("{}/{}/public/he.h", outdir_string, LIGHTWAY_VERSION))
         .clang_arg(format!("-I{}/include/", outdir_string))
         .rustfmt_bindings(true)
         .blocklist_file("/usr/include/features.h")
