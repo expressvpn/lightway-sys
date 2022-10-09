@@ -9,7 +9,7 @@ use std::env;
 use std::path::Path;
 use std::process::Command;
 
-static LIGHTWAY_VERSION: &str = "lightway-core-1.6.2";
+static LIGHTWAY_VERSION: &str = "lightway-core-1.7.0";
 
 /**
  * Extract Lightway Core
