@@ -15,4 +15,4 @@ wolfssl-sys = "0.1.12"
 [build-dependencies]
 bindgen = "0.59.2"
 cc = "1.0"
-wolfssl-sys = "0.1.10"
+wolfssl-sys = "0.1.12"
