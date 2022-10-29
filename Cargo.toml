@@ -1,6 +1,6 @@
 [package]
 name = "lightway-sys"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["pete.m@expressvpn.com"]
 license = "GPL-2.0"
@@ -10,7 +10,7 @@ repository = "https://github.com/expressvpn/lightway-sys"
 keywords = ["wolfssl", "vpn", "expressvpn", "lightway"]
 
 [dependencies]
-wolfssl-sys = "0.1.10"
+wolfssl-sys = "0.1.12"
 
 [build-dependencies]
 bindgen = "0.59.2"
