@@ -10,10 +10,10 @@ Add `lightway-sys` to your Cargo manifest:
 
 ```
 [dependencies]
-lightway-sys = "0.1.0"
+lightway-sys = "0.1.2"
 ```
 
-To ensure that the crate can be built even offline, the crate includes the source code for Lightway (currently version `1.1`).
+To ensure that the crate can be built even offline, the crate includes the source code for Lightway (currently version `1.7.0`).
 
 ## Building with Earthly
 There is also an `Earthfile` provided so that you can build the crate in [Earthly](https://earthly.dev):
