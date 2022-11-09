@@ -24,5 +24,5 @@ earthly +build-crate
 
 ## TODO
 
-* Resolve the warnings in the library build phase
+* Resolve the warnings in the library build phase.
 
